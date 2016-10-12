@@ -1,0 +1,7 @@
+SourceQueryFileName,TargetQueryFileName
+C:/Scripts/Automation_pyScripts/param/CommunityDimKey_5k.sql,C:/Scripts/Automation_pyScripts/param/CommunityDimKey_5k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/CommunityDimKey_10k.sql,C:/Scripts/Automation_pyScripts/param/CommunityDimKey_10k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/CommunityDimKey_15k.sql,C:/Scripts/Automation_pyScripts/param/CommunityDimKey_15k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/CommunityDimKey_20k.sql,C:/Scripts/Automation_pyScripts/param/CommunityDimKey_20k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/CommunityDimKey_25k.sql,C:/Scripts/Automation_pyScripts/param/CommunityDimKey_25k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/CommunityDimKey_30k.sql,C:/Scripts/Automation_pyScripts/param/CommunityDimKey_30k_trgt.sql

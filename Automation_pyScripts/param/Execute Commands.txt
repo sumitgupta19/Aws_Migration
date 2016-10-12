@@ -1,0 +1,5 @@
+Table Structure- python TableStructure.py "c:\Scripts\AWS Full Blown Migration Automation Demo\Automation_pyScripts\config\TableStructureConfig.json"
+Null Check- python NullCheck.py "c:\Scripts\AWS Full Blown Migration Automation Demo\Automation_pyScripts\config\NullCheckConfig.json"
+Count Check- python CountCheck.py "c:\Scripts\AWS Full Blown Migration Automation Demo\Automation_pyScripts\config\CountConfig.json"
+Duplicate Check- python DuplicateCheck.py "c:\Scripts\AWS Full Blown Migration Automation Demo\Automation_pyScripts\config\DuplicateCheckConfig.json"
+Data Validation- python DataValidation.py "c:\Scripts\AWS Full Blown Migration Automation Demo\Automation_pyScripts\config\DataValidationConfig.json"

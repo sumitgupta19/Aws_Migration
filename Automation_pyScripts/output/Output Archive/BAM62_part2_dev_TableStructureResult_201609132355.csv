@@ -1,0 +1,770 @@
+brokercontractdm,tblbrokercontractjunkdim,lastupdate,timestamp without time zone,,Source
+brokercontractdm,tblbrokercontractjunkdim,lastupdate,date,,Target
+ERROR:Data Type is not matching with Target
+brokercontractdm,tblbrokercontractjunkdim,solomoncustid,character,15,Source
+brokercontractdm,tblbrokercontractjunkdim,solomoncustid,character varying,30,Target
+ERROR:Data Type and Data Size is not matching with Target
+ctrl,tblsendemail,emailbody,character varying,-1,Source
+ctrl,tblsendemail,emailbody,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+ctrl,tblsendemaildetail,emailbody,character varying,-1,Source
+ctrl,tblsendemaildetail,emailbody,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+customerdm,tblleadcontactdim,calleraddress,character varying,-1,Source
+customerdm,tblleadcontactdim,calleraddress,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+customerdm,tblleadcontactdim,rowversion,**,**,Source
+ERROR:Not found in Target
+customerdm,tblleadinquirydim,questionorcomment,character varying,-1,Source
+customerdm,tblleadinquirydim,questionorcomment,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+customerdm,tblleadinquirydim,rowversion,**,**,Source
+ERROR:Not found in Target
+customerdm,tblleadtransactionalfact,billingcustomerid,character varying,-1,Source
+customerdm,tblleadtransactionalfact,billingcustomerid,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+customerdm,tblleadtransactionalfact,duplicateleadid,character varying,-1,Source
+customerdm,tblleadtransactionalfact,duplicateleadid,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+customerdm,tblleadtransactionalfact,leadid,character varying,,Source
+customerdm,tblleadtransactionalfact,leadid,character varying,40,Target
+ERROR:Data Size is not matching with Target
+customerdm,tblleadtransactionalfact,rowversion,**,**,Source
+ERROR:Not found in Target
+customerdm,tblleadtransactionalfact,submittedleadid,character varying,,Source
+customerdm,tblleadtransactionalfact,submittedleadid,character varying,40,Target
+ERROR:Data Size is not matching with Target
+dbo,cassidyreferencingobject,referencing_entity_name,character varying,128,Source
+dbo,cassidyreferencingobject,referencing_entity_name,character varying,64,Target
+ERROR:Data Size is not matching with Target
+dbo,cassidyreferencingobject,referencing_schema_name,character varying,128,Source
+dbo,cassidyreferencingobject,referencing_schema_name,character varying,64,Target
+ERROR:Data Size is not matching with Target
+dbo,fa_rup_metric_day,dt_id,timestamp without time zone,,Source
+dbo,fa_rup_metric_day,dt_id,date,,Target
+ERROR:Data Type is not matching with Target
+dbo,fa_rup_metric_day,load_ts,timestamp without time zone,,Source
+dbo,fa_rup_metric_day,load_ts,date,,Target
+ERROR:Data Type is not matching with Target
+dbo,leapfrog_tblagentdim,rowversion,**,**,Source
+ERROR:Not found in Target
+dbo,leapfrog_tblbrokerdim,rowversion,**,**,Source
+ERROR:Not found in Target
+dbo,leapfrog_tblcustomerdim,rowversion,**,**,Source
+ERROR:Not found in Target
+dbo,leapfrog_tblofficedim,rowversion,**,**,Source
+ERROR:Not found in Target
+dbo,sysdiagrams,definition,varbinary,-1,Source
+ERROR:Not found in Target
+dbo,sysdiagrams,name,character varying,128,Source
+dbo,sysdiagrams,name,character varying,64,Target
+ERROR:Data Size is not matching with Target
+dbo,tblbrokercontractparticipatingofficesfact_bckup_donotdelete,rowversion,**,**,Source
+ERROR:Not found in Target
+dbo,tblcurrentagentdim,rowversion,**,**,Source
+ERROR:Not found in Target
+dbo,tblcurrentagentdim_new,rowversion,**,**,Source
+ERROR:Not found in Target
+dbo,tblcurrentagentdim_previousday,rowversion,**,**,Source
+ERROR:Not found in Target
+dbo,tblcurrentofficedim,rowversion,**,**,Source
+ERROR:Not found in Target
+dbo,tblmovedmfileusage,dbfilegroup,character varying,128,Source
+dbo,tblmovedmfileusage,dbfilegroup,character varying,64,Target
+ERROR:Data Size is not matching with Target
+dbo,tblmovedmfileusage,dbname,character varying,128,Source
+dbo,tblmovedmfileusage,dbname,character varying,64,Target
+ERROR:Data Size is not matching with Target
+dbo,tblmovedmfileusage,filegroupisdefault,character varying,128,Source
+dbo,tblmovedmfileusage,filegroupisdefault,character varying,64,Target
+ERROR:Data Size is not matching with Target
+dbo,tblneighbourhoodstage,geographydata,geography,-1,Source
+ERROR:Not found in Target
+dbo,tblpropertygeodata,geographydata,geography,-1,Source
+ERROR:Not found in Target
+dbo,tblsanitymaxloaddate,sourcemaxupdatedateinload,binary,50,Source
+ERROR:Not found in Target
+dbo,tblsanityrulesrunlog,cleanupsql,character varying,-1,Source
+dbo,tblsanityrulesrunlog,cleanupsql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+dbo,tblsanityrulesrunlog,diffsql,character varying,-1,Source
+dbo,tblsanityrulesrunlog,diffsql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+dbo,tblsanityrulesrunlog,increcriteriasql,character varying,-1,Source
+dbo,tblsanityrulesrunlog,increcriteriasql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+dbo,tblsanityrulesrunlog,sourcerecordcountsql,character varying,-1,Source
+dbo,tblsanityrulesrunlog,sourcerecordcountsql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+dbo,tblsanityrulesrunlog,sourcesql,character varying,-1,Source
+dbo,tblsanityrulesrunlog,sourcesql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+dbo,tblsanityrulesrunlog,targetrecordcountsql,character varying,-1,Source
+dbo,tblsanityrulesrunlog,targetrecordcountsql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+dbo,tblsanityrulesrunlog,targetsql,character varying,-1,Source
+dbo,tblsanityrulesrunlog,targetsql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+dbo,tmpnara2,agentdatasourceid,character varying,30,Source
+ERROR:Not found in Target
+dbo,tmpnara2,agentid,integer,**,Source
+ERROR:Not found in Target
+dbo,tmpnara2,agentsourcealiasid,character varying,50,Source
+ERROR:Not found in Target
+dbo,tmpnara2,effectiveto,timestamp without time zone,,Source
+ERROR:Not found in Target
+dbo,tmpnara2,officedatasourceid,character varying,30,Source
+ERROR:Not found in Target
+dbo,tmpnara2,officesourcealiasid,character varying,30,Source
+ERROR:Not found in Target
+dwg,broker,date,timestamp without time zone,,Source
+dwg,broker,date,date,,Target
+ERROR:Data Type is not matching with Target
+dwg,brokermetrics,date,timestamp without time zone,,Source
+dwg,brokermetrics,date,date,,Target
+ERROR:Data Type is not matching with Target
+dwg,contactreseller,date,timestamp without time zone,,Source
+dwg,contactreseller,date,date,,Target
+ERROR:Data Type is not matching with Target
+dwg,lu_nc_user,nc_user_update_ts,timestamp without time zone,,Source
+dwg,lu_nc_user,nc_user_update_ts,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tbladvertiserturboinfo,campaignid,character varying,,Source
+ERROR:Not found in Target
+edw,tblagentdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblagentdim_legacy,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblbrokercontractparticipatingofficesfact,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblbrokercontractparticipatingofficesfact_withnewlogic,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblbrokerdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblbuilderdim,brandlogo,character varying,-1,Source
+edw,tblbuilderdim,brandlogo,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblbuilderdim,builderwebsite,character varying,-1,Source
+edw,tblbuilderdim,builderwebsite,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblbuilderdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblcalendareventdim,calendareventdescription,character varying,256,Source
+edw,tblcalendareventdim,calendareventdescription,character varying,512,Target
+ERROR:Data Size is not matching with Target
+edw,tblcalendareventdim,calendareventname,character varying,64,Source
+edw,tblcalendareventdim,calendareventname,character varying,128,Target
+ERROR:Data Size is not matching with Target
+edw,tblcalendareventdimextension,reportsmetricsimpacted,character varying,-1,Source
+edw,tblcalendareventdimextension,reportsmetricsimpacted,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblcallresponsedim,recipientstatusdescription,character varying,-1,Source
+edw,tblcallresponsedim,recipientstatusdescription,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblcallresponsedim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblcommunitydim,address1,character varying,50,Source
+edw,tblcommunitydim,address1,character varying,100,Target
+ERROR:Data Size is not matching with Target
+edw,tblcommunitydim,address2,character varying,50,Source
+edw,tblcommunitydim,address2,character varying,100,Target
+ERROR:Data Size is not matching with Target
+edw,tblcommunitydim,fax,character,15,Source
+edw,tblcommunitydim,fax,character varying,30,Target
+ERROR:Data Type and Data Size is not matching with Target
+edw,tblcommunitydim,propname,character varying,90,Source
+edw,tblcommunitydim,propname,character varying,125,Target
+ERROR:Data Size is not matching with Target
+edw,tblcommunitydim,rowver,timestamp without time zone,,Source
+ERROR:Not found in Target
+edw,tblcommunitymanagmentdim,rowver,timestamp without time zone,,Source
+ERROR:Not found in Target
+edw,tblcustomerdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblcustomerdim_legacy,notes,character varying,-1,Source
+edw,tblcustomerdim_legacy,notes,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblcustomerdim_legacy,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblcustomerleads,leadid,character varying,,Source
+edw,tblcustomerleads,leadid,character varying,40,Target
+ERROR:Data Size is not matching with Target
+edw,tblcustomerleads,submittedleadid,character varying,,Source
+edw,tblcustomerleads,submittedleadid,character varying,40,Target
+ERROR:Data Size is not matching with Target
+edw,tblcustomerproductmonthlyleadcountagg,billingcustomerid,character varying,-1,Source
+edw,tblcustomerproductmonthlyleadcountagg,billingcustomerid,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblcustomerproductweeklyleadcountagg,billingcustomerid,character varying,-1,Source
+edw,tblcustomerproductweeklyleadcountagg,billingcustomerid,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tbldatasourcedim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tbldatasourcedim_legacy,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblfcmainquirydim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblleaddenorm,billingcustomerid,character varying,-1,Source
+edw,tblleaddenorm,billingcustomerid,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleaddenorm,leadformname,character varying,-1,Source
+edw,tblleaddenorm,leadformname,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleaddenorm,leadid,character varying,,Source
+edw,tblleaddenorm,leadid,character varying,40,Target
+ERROR:Data Size is not matching with Target
+edw,tblleaddenorm,leadstatusdescription,character varying,-1,Source
+edw,tblleaddenorm,leadstatusdescription,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleaddenorm,leadtypedescription,character varying,-1,Source
+edw,tblleaddenorm,leadtypedescription,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleaddenorm,questionorcomment,character varying,-1,Source
+edw,tblleaddenorm,questionorcomment,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleaddenorm,sourcesystemdescription,character varying,-1,Source
+edw,tblleaddenorm,sourcesystemdescription,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleadformdim,leadformname,character varying,-1,Source
+edw,tblleadformdim,leadformname,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleadformdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblleadproductdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblleadreasondim,freeleadreason,character varying,-1,Source
+edw,tblleadreasondim,freeleadreason,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleadreasondim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblleadstatusdim,leadstatusdescription,character varying,-1,Source
+edw,tblleadstatusdim,leadstatusdescription,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleadstatusdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblleadsystemdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblleadsystemdim,sourcesystemdescription,character varying,-1,Source
+edw,tblleadsystemdim,sourcesystemdescription,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleadtypedim,leadtypedescription,character varying,-1,Source
+edw,tblleadtypedim,leadtypedescription,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblleadtypedim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tbllistingdim,openhouseenddate,timestamp without time zone,,Source
+edw,tbllistingdim,openhouseenddate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tbllistingdim,openhousestartdate,timestamp without time zone,,Source
+edw,tbllistingdim,openhousestartdate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tbllistingdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tbllistingdim_current,openhouseenddate,timestamp without time zone,,Source
+edw,tbllistingdim_current,openhouseenddate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tbllistingdim_current,openhousestartdate,timestamp without time zone,,Source
+edw,tbllistingdim_current,openhousestartdate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tblmasterlistingstatuses,odsrowversion,timestamp without time zone,,Source
+ERROR:Not found in Target
+edw,tblmlsdim,mlsaccessnotes,character varying,2147483647,Source
+edw,tblmlsdim,mlsaccessnotes,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblmlsdim,mlsadddate,timestamp without time zone,,Source
+edw,tblmlsdim,mlsadddate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tblmlsdim,mlsupdatedate,timestamp without time zone,,Source
+edw,tblmlsdim,mlsupdatedate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tblnewhomesplandim,plandesc,character varying,-1,Source
+edw,tblnewhomesplandim,plandesc,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomesplandim,planenvisiondesigncenter,character varying,-1,Source
+edw,tblnewhomesplandim,planenvisiondesigncenter,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomesplandim,planimgviewer,character varying,-1,Source
+edw,tblnewhomesplandim,planimgviewer,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomesplandim,planimgvirtualtour,character varying,-1,Source
+edw,tblnewhomesplandim,planimgvirtualtour,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomesplandim,planwebsite,character varying,-1,Source
+edw,tblnewhomesplandim,planwebsite,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomesplandim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblnewhomessubdivisiondim,accreditationseal,character varying,-1,Source
+edw,tblnewhomessubdivisiondim,accreditationseal,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomessubdivisiondim,drivingdirections,character varying,-1,Source
+edw,tblnewhomessubdivisiondim,drivingdirections,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomessubdivisiondim,promotion,character varying,-1,Source
+edw,tblnewhomessubdivisiondim,promotion,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomessubdivisiondim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblnewhomessubdivisiondim,subdesc,character varying,-1,Source
+edw,tblnewhomessubdivisiondim,subdesc,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomessubdivisiondim,subvideotour,character varying,-1,Source
+edw,tblnewhomessubdivisiondim,subvideotour,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomessubdivisiondim,subwebsite,character varying,-1,Source
+edw,tblnewhomessubdivisiondim,subwebsite,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblnewhomessubdivisiondim,testimonial,character varying,-1,Source
+edw,tblnewhomessubdivisiondim,testimonial,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblofficebrokerbridgefact,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblofficedim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblofficedim_legacy,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblphonetrackingfact,tollfreenumber,character varying,-1,Source
+edw,tblphonetrackingfact,tollfreenumber,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblpropertydim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblrdcfulfillmentproductdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblrdclistingproductbridgefact,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblsendemaildetail,emailbody,character varying,-1,Source
+edw,tblsendemaildetail,emailbody,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+edw,tblslot_details,createdate,timestamp without time zone,,Source
+edw,tblslot_details,createdate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tblslot_details,effectivedate,timestamp without time zone,,Source
+edw,tblslot_details,effectivedate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tblslot_details,expirationdate,timestamp without time zone,,Source
+edw,tblslot_details,expirationdate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tblslot_details,lockreleasedate,timestamp without time zone,,Source
+edw,tblslot_details,lockreleasedate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tblslot_details,migratedate,timestamp without time zone,,Source
+edw,tblslot_details,migratedate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tblslot_details,modifieddate,timestamp without time zone,,Source
+edw,tblslot_details,modifieddate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tblslot_details,updatedate,timestamp without time zone,,Source
+edw,tblslot_details,updatedate,date,,Target
+ERROR:Data Type is not matching with Target
+edw,tblteamcustomerbridge,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tblteamdim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tbltigerleadreasondim,rowversion,**,**,Source
+ERROR:Not found in Target
+edw,tbltimedim,quarterhourtimeofday,character varying,,Source
+edw,tbltimedim,quarterhourtimeofday,character varying,10,Target
+ERROR:Data Size is not matching with Target
+edw,tbltimedim,timeofday,character varying,,Source
+edw,tbltimedim,timeofday,character varying,10,Target
+ERROR:Data Size is not matching with Target
+kpiframework,tblsourcedataloadcontroller,sourcedataloadbasequery,character varying,-1,Source
+kpiframework,tblsourcedataloadcontroller,sourcedataloadbasequery,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+mmsearchdm,tblsearchcriteriadim,searchid,character varying,,Source
+mmsearchdm,tblsearchcriteriadim,searchid,character varying,40,Target
+ERROR:Data Size is not matching with Target
+mmsearchdm,tblsessiondim,edw_session_id,character varying,,Source
+mmsearchdm,tblsessiondim,edw_session_id,character varying,40,Target
+ERROR:Data Size is not matching with Target
+mmsearchdm,tblvisitordim,edw_visitor_id,character varying,,Source
+mmsearchdm,tblvisitordim,edw_visitor_id,character varying,40,Target
+ERROR:Data Size is not matching with Target
+orderdm,tblmarketdim,participantzipcode,character varying,-1,Source
+orderdm,tblmarketdim,participantzipcode,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+orderdm,tblmarketdim,rowversion,**,**,Source
+ERROR:Not found in Target
+orderdm,tblsalesagentdim,rowversion,**,**,Source
+ERROR:Not found in Target
+osl,tbllead_uhura,leadid,character varying,,Source
+osl,tbllead_uhura,leadid,character varying,40,Target
+ERROR:Data Size is not matching with Target
+osl,tbllead_uhura,message,character varying,-1,Source
+osl,tbllead_uhura,message,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+osl,tbllead_uhura,timeofday,character varying,,Source
+osl,tbllead_uhura,timeofday,character varying,10,Target
+ERROR:Data Size is not matching with Target
+registrationdm,tblmemberdim,cancellationreason,character varying,-1,Source
+registrationdm,tblmemberdim,cancellationreason,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+registrationdm,tblmemberdim,iphonelastlogindate,timestamp without time zone,,Source
+registrationdm,tblmemberdim,iphonelastlogindate,date,,Target
+ERROR:Data Type is not matching with Target
+registrationdm,tblmemberdim,iphoneuserstartdate,timestamp without time zone,,Source
+registrationdm,tblmemberdim,iphoneuserstartdate,date,,Target
+ERROR:Data Type is not matching with Target
+registrationdm,tblmemberdim,profilecreatedatemst,timestamp without time zone,,Source
+registrationdm,tblmemberdim,profilecreatedatemst,date,,Target
+ERROR:Data Type is not matching with Target
+registrationdm,tblmemberdim,profileupdatedatemst,timestamp without time zone,,Source
+registrationdm,tblmemberdim,profileupdatedatemst,date,,Target
+ERROR:Data Type is not matching with Target
+registrationdm,tblmemberdim,usertypeconversiondate,timestamp without time zone,,Source
+registrationdm,tblmemberdim,usertypeconversiondate,date,,Target
+ERROR:Data Type is not matching with Target
+searchdm,tblsearcheventfact,sessionid,character varying,,Source
+searchdm,tblsearcheventfact,sessionid,character varying,40,Target
+ERROR:Data Size is not matching with Target
+searchdm,tblsearcheventfact,visitorid,character varying,,Source
+searchdm,tblsearcheventfact,visitorid,character varying,40,Target
+ERROR:Data Size is not matching with Target
+validationframework,tblsanityrulesrunlog,cleanupsql,character varying,-1,Source
+validationframework,tblsanityrulesrunlog,cleanupsql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+validationframework,tblsanityrulesrunlog,diffsql,character varying,-1,Source
+validationframework,tblsanityrulesrunlog,diffsql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+validationframework,tblsanityrulesrunlog,increcriteriasql,character varying,-1,Source
+validationframework,tblsanityrulesrunlog,increcriteriasql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+validationframework,tblsanityrulesrunlog,sourcerecordcountsql,character varying,-1,Source
+validationframework,tblsanityrulesrunlog,sourcerecordcountsql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+validationframework,tblsanityrulesrunlog,sourcesql,character varying,-1,Source
+validationframework,tblsanityrulesrunlog,sourcesql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+validationframework,tblsanityrulesrunlog,targetrecordcountsql,character varying,-1,Source
+validationframework,tblsanityrulesrunlog,targetrecordcountsql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+validationframework,tblsanityrulesrunlog,targetsql,character varying,-1,Source
+validationframework,tblsanityrulesrunlog,targetsql,character varying,65535,Target
+ERROR:Data Size is not matching with Target
+brokercontractdm,tblbrokercontractjunkdim,lastupdate,date,,Target
+brokercontractdm,tblbrokercontractjunkdim,lastupdate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+brokercontractdm,tblbrokercontractjunkdim,solomoncustid,character varying,30,Target
+brokercontractdm,tblbrokercontractjunkdim,solomoncustid,character,15,Source
+ERROR:Data Type and Data Size is not matching with Source
+ctrl,tblsendemail,emailbody,character varying,65535,Target
+ctrl,tblsendemail,emailbody,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+ctrl,tblsendemaildetail,emailbody,character varying,65535,Target
+ctrl,tblsendemaildetail,emailbody,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+customerdm,tblleadcontactdim,calleraddress,character varying,65535,Target
+customerdm,tblleadcontactdim,calleraddress,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+customerdm,tblleadinquirydim,questionorcomment,character varying,65535,Target
+customerdm,tblleadinquirydim,questionorcomment,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+customerdm,tblleadtransactionalfact,billingcustomerid,character varying,65535,Target
+customerdm,tblleadtransactionalfact,billingcustomerid,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+customerdm,tblleadtransactionalfact,duplicateleadid,character varying,65535,Target
+customerdm,tblleadtransactionalfact,duplicateleadid,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+customerdm,tblleadtransactionalfact,leadid,character varying,40,Target
+customerdm,tblleadtransactionalfact,leadid,character varying,,Source
+ERROR:Data Size is not matching with Source
+customerdm,tblleadtransactionalfact,submittedleadid,character varying,40,Target
+customerdm,tblleadtransactionalfact,submittedleadid,character varying,,Source
+ERROR:Data Size is not matching with Source
+dbo,cassidyreferencingobject,referencing_entity_name,character varying,64,Target
+dbo,cassidyreferencingobject,referencing_entity_name,character varying,128,Source
+ERROR:Data Size is not matching with Source
+dbo,cassidyreferencingobject,referencing_schema_name,character varying,64,Target
+dbo,cassidyreferencingobject,referencing_schema_name,character varying,128,Source
+ERROR:Data Size is not matching with Source
+dbo,fa_rup_metric_day,dt_id,date,,Target
+dbo,fa_rup_metric_day,dt_id,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+dbo,fa_rup_metric_day,load_ts,date,,Target
+dbo,fa_rup_metric_day,load_ts,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+dbo,sysdiagrams,name,character varying,64,Target
+dbo,sysdiagrams,name,character varying,128,Source
+ERROR:Data Size is not matching with Source
+dbo,tblmovedmfileusage,dbfilegroup,character varying,64,Target
+dbo,tblmovedmfileusage,dbfilegroup,character varying,128,Source
+ERROR:Data Size is not matching with Source
+dbo,tblmovedmfileusage,dbname,character varying,64,Target
+dbo,tblmovedmfileusage,dbname,character varying,128,Source
+ERROR:Data Size is not matching with Source
+dbo,tblmovedmfileusage,filegroupisdefault,character varying,64,Target
+dbo,tblmovedmfileusage,filegroupisdefault,character varying,128,Source
+ERROR:Data Size is not matching with Source
+dbo,tblsanityrulesrunlog,cleanupsql,character varying,65535,Target
+dbo,tblsanityrulesrunlog,cleanupsql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+dbo,tblsanityrulesrunlog,diffsql,character varying,65535,Target
+dbo,tblsanityrulesrunlog,diffsql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+dbo,tblsanityrulesrunlog,increcriteriasql,character varying,65535,Target
+dbo,tblsanityrulesrunlog,increcriteriasql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+dbo,tblsanityrulesrunlog,sourcerecordcountsql,character varying,65535,Target
+dbo,tblsanityrulesrunlog,sourcerecordcountsql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+dbo,tblsanityrulesrunlog,sourcesql,character varying,65535,Target
+dbo,tblsanityrulesrunlog,sourcesql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+dbo,tblsanityrulesrunlog,targetrecordcountsql,character varying,65535,Target
+dbo,tblsanityrulesrunlog,targetrecordcountsql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+dbo,tblsanityrulesrunlog,targetsql,character varying,65535,Target
+dbo,tblsanityrulesrunlog,targetsql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+dwg,broker,date,date,,Target
+dwg,broker,date,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+dwg,brokermetrics,date,date,,Target
+dwg,brokermetrics,date,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+dwg,contactreseller,date,date,,Target
+dwg,contactreseller,date,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+dwg,lu_nc_user,nc_user_update_ts,date,,Target
+dwg,lu_nc_user,nc_user_update_ts,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tblbuilderdim,brandlogo,character varying,65535,Target
+edw,tblbuilderdim,brandlogo,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblbuilderdim,builderwebsite,character varying,65535,Target
+edw,tblbuilderdim,builderwebsite,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblcalendareventdim,calendareventdescription,character varying,512,Target
+edw,tblcalendareventdim,calendareventdescription,character varying,256,Source
+ERROR:Data Size is not matching with Source
+edw,tblcalendareventdim,calendareventname,character varying,128,Target
+edw,tblcalendareventdim,calendareventname,character varying,64,Source
+ERROR:Data Size is not matching with Source
+edw,tblcalendareventdimextension,reportsmetricsimpacted,character varying,65535,Target
+edw,tblcalendareventdimextension,reportsmetricsimpacted,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblcallresponsedim,recipientstatusdescription,character varying,65535,Target
+edw,tblcallresponsedim,recipientstatusdescription,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblcommunitydim,address1,character varying,100,Target
+edw,tblcommunitydim,address1,character varying,50,Source
+ERROR:Data Size is not matching with Source
+edw,tblcommunitydim,address2,character varying,100,Target
+edw,tblcommunitydim,address2,character varying,50,Source
+ERROR:Data Size is not matching with Source
+edw,tblcommunitydim,fax,character varying,30,Target
+edw,tblcommunitydim,fax,character,15,Source
+ERROR:Data Type and Data Size is not matching with Source
+edw,tblcommunitydim,propname,character varying,125,Target
+edw,tblcommunitydim,propname,character varying,90,Source
+ERROR:Data Size is not matching with Source
+edw,tblcustomerdim_legacy,notes,character varying,65535,Target
+edw,tblcustomerdim_legacy,notes,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblcustomerleads,leadid,character varying,40,Target
+edw,tblcustomerleads,leadid,character varying,,Source
+ERROR:Data Size is not matching with Source
+edw,tblcustomerleads,submittedleadid,character varying,40,Target
+edw,tblcustomerleads,submittedleadid,character varying,,Source
+ERROR:Data Size is not matching with Source
+edw,tblcustomerproductmonthlyleadcountagg,billingcustomerid,character varying,65535,Target
+edw,tblcustomerproductmonthlyleadcountagg,billingcustomerid,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblcustomerproductweeklyleadcountagg,billingcustomerid,character varying,65535,Target
+edw,tblcustomerproductweeklyleadcountagg,billingcustomerid,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleaddenorm,billingcustomerid,character varying,65535,Target
+edw,tblleaddenorm,billingcustomerid,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleaddenorm,leadformname,character varying,65535,Target
+edw,tblleaddenorm,leadformname,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleaddenorm,leadid,character varying,40,Target
+edw,tblleaddenorm,leadid,character varying,,Source
+ERROR:Data Size is not matching with Source
+edw,tblleaddenorm,leadstatusdescription,character varying,65535,Target
+edw,tblleaddenorm,leadstatusdescription,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleaddenorm,leadtypedescription,character varying,65535,Target
+edw,tblleaddenorm,leadtypedescription,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleaddenorm,questionorcomment,character varying,65535,Target
+edw,tblleaddenorm,questionorcomment,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleaddenorm,sourcesystemdescription,character varying,65535,Target
+edw,tblleaddenorm,sourcesystemdescription,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleadformdim,leadformname,character varying,65535,Target
+edw,tblleadformdim,leadformname,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleadreasondim,freeleadreason,character varying,65535,Target
+edw,tblleadreasondim,freeleadreason,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleadstatusdim,leadstatusdescription,character varying,65535,Target
+edw,tblleadstatusdim,leadstatusdescription,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleadsystemdim,sourcesystemdescription,character varying,65535,Target
+edw,tblleadsystemdim,sourcesystemdescription,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblleadtypedim,leadtypedescription,character varying,65535,Target
+edw,tblleadtypedim,leadtypedescription,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tbllistingdim,openhouseenddate,date,,Target
+edw,tbllistingdim,openhouseenddate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tbllistingdim,openhousestartdate,date,,Target
+edw,tbllistingdim,openhousestartdate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tbllistingdim_current,openhouseenddate,date,,Target
+edw,tbllistingdim_current,openhouseenddate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tbllistingdim_current,openhousestartdate,date,,Target
+edw,tbllistingdim_current,openhousestartdate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tblmlsdim,mlsaccessnotes,character varying,65535,Target
+edw,tblmlsdim,mlsaccessnotes,character varying,2147483647,Source
+ERROR:Data Size is not matching with Source
+edw,tblmlsdim,mlsadddate,date,,Target
+edw,tblmlsdim,mlsadddate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tblmlsdim,mlsupdatedate,date,,Target
+edw,tblmlsdim,mlsupdatedate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tblnewhomesplandim,plandesc,character varying,65535,Target
+edw,tblnewhomesplandim,plandesc,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomesplandim,planenvisiondesigncenter,character varying,65535,Target
+edw,tblnewhomesplandim,planenvisiondesigncenter,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomesplandim,planimgviewer,character varying,65535,Target
+edw,tblnewhomesplandim,planimgviewer,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomesplandim,planimgvirtualtour,character varying,65535,Target
+edw,tblnewhomesplandim,planimgvirtualtour,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomesplandim,planwebsite,character varying,65535,Target
+edw,tblnewhomesplandim,planwebsite,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomessubdivisiondim,accreditationseal,character varying,65535,Target
+edw,tblnewhomessubdivisiondim,accreditationseal,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomessubdivisiondim,drivingdirections,character varying,65535,Target
+edw,tblnewhomessubdivisiondim,drivingdirections,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomessubdivisiondim,promotion,character varying,65535,Target
+edw,tblnewhomessubdivisiondim,promotion,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomessubdivisiondim,subdesc,character varying,65535,Target
+edw,tblnewhomessubdivisiondim,subdesc,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomessubdivisiondim,subvideotour,character varying,65535,Target
+edw,tblnewhomessubdivisiondim,subvideotour,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomessubdivisiondim,subwebsite,character varying,65535,Target
+edw,tblnewhomessubdivisiondim,subwebsite,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblnewhomessubdivisiondim,testimonial,character varying,65535,Target
+edw,tblnewhomessubdivisiondim,testimonial,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblphonetrackingfact,tollfreenumber,character varying,65535,Target
+edw,tblphonetrackingfact,tollfreenumber,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblsendemaildetail,emailbody,character varying,65535,Target
+edw,tblsendemaildetail,emailbody,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+edw,tblslot_details,createdate,date,,Target
+edw,tblslot_details,createdate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tblslot_details,effectivedate,date,,Target
+edw,tblslot_details,effectivedate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tblslot_details,expirationdate,date,,Target
+edw,tblslot_details,expirationdate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tblslot_details,lockreleasedate,date,,Target
+edw,tblslot_details,lockreleasedate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tblslot_details,migratedate,date,,Target
+edw,tblslot_details,migratedate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tblslot_details,modifieddate,date,,Target
+edw,tblslot_details,modifieddate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tblslot_details,updatedate,date,,Target
+edw,tblslot_details,updatedate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+edw,tbltimedim,quarterhourtimeofday,character varying,10,Target
+edw,tbltimedim,quarterhourtimeofday,character varying,,Source
+ERROR:Data Size is not matching with Source
+edw,tbltimedim,timeofday,character varying,10,Target
+edw,tbltimedim,timeofday,character varying,,Source
+ERROR:Data Size is not matching with Source
+kpiframework,tblsourcedataloadcontroller,sourcedataloadbasequery,character varying,65535,Target
+kpiframework,tblsourcedataloadcontroller,sourcedataloadbasequery,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+mmsearchdm,tblsearchcriteriadim,searchid,character varying,40,Target
+mmsearchdm,tblsearchcriteriadim,searchid,character varying,,Source
+ERROR:Data Size is not matching with Source
+mmsearchdm,tblsessiondim,edw_session_id,character varying,40,Target
+mmsearchdm,tblsessiondim,edw_session_id,character varying,,Source
+ERROR:Data Size is not matching with Source
+mmsearchdm,tblvisitordim,edw_visitor_id,character varying,40,Target
+mmsearchdm,tblvisitordim,edw_visitor_id,character varying,,Source
+ERROR:Data Size is not matching with Source
+orderdm,tblmarketdim,participantzipcode,character varying,65535,Target
+orderdm,tblmarketdim,participantzipcode,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+osl,tbllead_uhura,leadid,character varying,40,Target
+osl,tbllead_uhura,leadid,character varying,,Source
+ERROR:Data Size is not matching with Source
+osl,tbllead_uhura,message,character varying,65535,Target
+osl,tbllead_uhura,message,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+osl,tbllead_uhura,timeofday,character varying,10,Target
+osl,tbllead_uhura,timeofday,character varying,,Source
+ERROR:Data Size is not matching with Source
+registrationdm,tblmemberdim,cancellationreason,character varying,65535,Target
+registrationdm,tblmemberdim,cancellationreason,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+registrationdm,tblmemberdim,iphonelastlogindate,date,,Target
+registrationdm,tblmemberdim,iphonelastlogindate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+registrationdm,tblmemberdim,iphoneuserstartdate,date,,Target
+registrationdm,tblmemberdim,iphoneuserstartdate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+registrationdm,tblmemberdim,profilecreatedatemst,date,,Target
+registrationdm,tblmemberdim,profilecreatedatemst,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+registrationdm,tblmemberdim,profileupdatedatemst,date,,Target
+registrationdm,tblmemberdim,profileupdatedatemst,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+registrationdm,tblmemberdim,usertypeconversiondate,date,,Target
+registrationdm,tblmemberdim,usertypeconversiondate,timestamp without time zone,,Source
+ERROR:Data Type is not matching with Source
+searchdm,tblsearcheventfact,sessionid,character varying,40,Target
+searchdm,tblsearcheventfact,sessionid,character varying,,Source
+ERROR:Data Size is not matching with Source
+searchdm,tblsearcheventfact,visitorid,character varying,40,Target
+searchdm,tblsearcheventfact,visitorid,character varying,,Source
+ERROR:Data Size is not matching with Source
+validationframework,tblsanityrulesrunlog,cleanupsql,character varying,65535,Target
+validationframework,tblsanityrulesrunlog,cleanupsql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+validationframework,tblsanityrulesrunlog,diffsql,character varying,65535,Target
+validationframework,tblsanityrulesrunlog,diffsql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+validationframework,tblsanityrulesrunlog,increcriteriasql,character varying,65535,Target
+validationframework,tblsanityrulesrunlog,increcriteriasql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+validationframework,tblsanityrulesrunlog,sourcerecordcountsql,character varying,65535,Target
+validationframework,tblsanityrulesrunlog,sourcerecordcountsql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+validationframework,tblsanityrulesrunlog,sourcesql,character varying,65535,Target
+validationframework,tblsanityrulesrunlog,sourcesql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+validationframework,tblsanityrulesrunlog,targetrecordcountsql,character varying,65535,Target
+validationframework,tblsanityrulesrunlog,targetrecordcountsql,character varying,-1,Source
+ERROR:Data Size is not matching with Source
+validationframework,tblsanityrulesrunlog,targetsql,character varying,65535,Target
+validationframework,tblsanityrulesrunlog,targetsql,character varying,-1,Source
+ERROR:Data Size is not matching with Source

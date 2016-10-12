@@ -1,0 +1,18 @@
+ Volume in drive C has no label.
+ Volume Serial Number is D843-0299
+
+ Directory of C:\Users\sghosh\Documents\test
+
+08/23/2016  06:30 AM    <DIR>          .
+08/23/2016  06:30 AM    <DIR>          ..
+08/23/2016  06:22 AM               282 EventTypeCategoryDim.sql
+08/23/2016  06:30 AM                 0 list.txt
+08/23/2016  06:21 AM               398 tblDataSourceDim.sql
+08/23/2016  06:20 AM               390 tblDataSourceDim_trgt.sql
+08/23/2016  06:00 AM               295 tblEmailEventTypeDim.sql
+08/23/2016  05:59 AM               288 tblEmailEventTypeDim_trgt.sql
+08/23/2016  06:28 AM               246 tblEmailOfferNameDim.sql
+08/23/2016  06:28 AM               238 tblEmailOfferNameDim_trgt.sql
+08/23/2016  06:23 AM               274 tblEventTypeCategoryDim_trgt.sql
+               9 File(s)          2,411 bytes
+               2 Dir(s)  37,157,273,600 bytes free

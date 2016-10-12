@@ -1,0 +1,17 @@
+SchemaName,TableName
+EDW,tblOrderDim
+EDW,tblListingProductDim
+EDW,tblCustomerPartyIDListingTypeHLCFact
+EDW,tblBrandNetworks
+EDW,tblPropertyDim
+TheWorks,tblBrokerContractOriginationTransactionalFactBuilder
+EDW,tblMLSDim
+OSL,tblLead_uhura
+OrderDM,tblSalesAgentDim
+SearchDM,tblSearchEventFact
+CustomerDM,tblLeadContactDim
+TheWorks,tblHourlySearchEventFactBuilder
+EDW,tblChannelDim
+EDW,tblAgentDim
+EDW,tblListingDim
+EDW,tblLeadDim

@@ -1,0 +1,8 @@
+SourceQueryFileName,TargetQueryFileName
+C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_5k.sql,C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_5k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_10k.sql,C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_10k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_15k.sql,C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_15k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_20k.sql,C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_20k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_25k.sql,C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_25k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_30k.sql,C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_30k_trgt.sql
+

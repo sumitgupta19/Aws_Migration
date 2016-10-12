@@ -1,0 +1,20 @@
+ Volume in drive C has no label.
+ Volume Serial Number is D843-0299
+
+ Directory of C:\Scripts\Automation_pyScripts\param
+
+08/18/2016  07:12 AM               858 CommunityDimKey_10k.sql
+08/18/2016  07:16 AM               796 CommunityDimKey_10k_trgt.sql
+08/18/2016  07:12 AM               859 CommunityDimKey_15k.sql
+08/18/2016  07:16 AM               797 CommunityDimKey_15k_trgt.sql
+08/18/2016  07:12 AM               859 CommunityDimKey_20k.sql
+08/18/2016  07:16 AM               797 CommunityDimKey_20k_trgt.sql
+08/18/2016  07:13 AM               859 CommunityDimKey_25k.sql
+08/18/2016  07:17 AM               797 CommunityDimKey_25k_trgt.sql
+08/18/2016  07:13 AM               859 CommunityDimKey_30k.sql
+08/18/2016  07:17 AM               797 CommunityDimKey_30k_trgt.sql
+08/18/2016  07:11 AM               854 CommunityDimKey_5k.sql
+08/18/2016  07:15 AM               791 CommunityDimKey_5k_trgt.sql
+08/18/2016  06:21 AM               929 QueryLIstCommunityDim.csv
+              13 File(s)         10,852 bytes
+               0 Dir(s)  36,836,651,008 bytes free

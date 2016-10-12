@@ -1,0 +1,10 @@
+{
+ "tableListFileName" : "C:/Scripts/AWS Full Blown Migration Automation Demo/Automation_pyScripts/param/Duplicate_TableList.csv",
+ "resultFileName" : "BAM62_Duplicate_result",
+ "folderPath" : "C:/Scripts/AWS Full Blown Migration Automation Demo/Automation_pyScripts/output",
+ "rs_Dbname" : "move_migration_dev",
+ "rs_Port" : "5439",
+ "rs_User" : "move_migration_dev_user", 
+ "rs_Password" : "qLU4MBaCBj", 
+ "rs_Host" : "rejuvenate-airflow-redshiftrejuvenate-1xf68gmlvc874.cgzhj7exi2vo.us-west-2.redshift.amazonaws.com"
+}

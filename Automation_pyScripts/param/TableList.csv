@@ -1,0 +1,10 @@
+SchemaName,TableName
+edw,tblListingDim
+edw,tblOrderDim
+edw,tblListingProductDim
+edw,tblCustomerPartyIDListingTypeHLCFact
+edw,tblBrandNetworks
+edw,tblPropertyDim
+edw,tblMLSDim
+edw,tblChannelDim
+edw,tblAgentDim

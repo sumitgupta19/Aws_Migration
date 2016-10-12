@@ -1,0 +1,21 @@
+ Volume in drive C has no label.
+ Volume Serial Number is D843-0299
+
+ Directory of C:\Scripts\Automation_pyScripts\param
+
+08/17/2016  06:29 AM             2,910 tblNewHomesSubdivisionDim_1k_2k.sql
+08/17/2016  06:31 AM             1,952 tblNewHomesSubdivisionDim_1k_2k_trgt.sql
+08/17/2016  03:54 AM             2,910 tblNewHomesSubdivisionDim_1lacs.sql
+08/17/2016  03:54 AM             1,952 tblNewHomesSubdivisionDim_1lacs_trgt.sql
+08/17/2016  06:29 AM             2,914 tblNewHomesSubdivisionDim_2k_3k.sql
+08/17/2016  06:31 AM             1,956 tblNewHomesSubdivisionDim_2k_3k_trgt.sql
+08/17/2016  06:29 AM             2,915 tblNewHomesSubdivisionDim_3k_4k.sql
+08/17/2016  06:31 AM             1,957 tblNewHomesSubdivisionDim_3k_4k_trgt.sql
+08/17/2016  06:29 AM             2,915 tblNewHomesSubdivisionDim_4k_5k.sql
+08/17/2016  06:32 AM             1,957 tblNewHomesSubdivisionDim_4k_5k_trgt.sql
+08/17/2016  06:30 AM             2,915 tblNewHomesSubdivisionDim_5k_6k.sql
+08/17/2016  06:32 AM             1,957 tblNewHomesSubdivisionDim_5k_6k_trgt.sql
+08/17/2016  06:30 AM             2,915 tblNewHomesSubdivisionDim_6k_7k.sql
+08/17/2016  06:32 AM             1,957 tblNewHomesSubdivisionDim_6k_7k_trgt.sql
+              14 File(s)         34,082 bytes
+               0 Dir(s)  37,145,489,408 bytes free

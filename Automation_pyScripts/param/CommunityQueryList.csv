@@ -1,0 +1,2 @@
+SourceQuery, TargetQuery
+C:/Scripts/AWS Full Blown Migration Automation Demo/Automation_pyScripts/param/tblCommunityManagmentDim_5k.sql,C:/Scripts/AWS Full Blown Migration Automation Demo/Automation_pyScripts/param/tblCommunityManagmentDim_5k_trgt.sql

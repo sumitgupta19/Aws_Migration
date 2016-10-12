@@ -1,0 +1,6 @@
+SourceQueryFileName, TargetQueryFileName
+C:/Scripts/Automation_pyScripts/param/tblEmailEventTypeDim.sql,C:/Scripts/Automation_pyScripts/param/tblEmailEventTypeDim_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblDataSourceDim.sql,C:/Scripts/Automation_pyScripts/param/tblDataSourceDim_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblEmailEventTypeDim.sql,C:/Scripts/Automation_pyScripts/param/tblEmailEventTypeDim_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblEmailOfferNameDim.sql,C:/Scripts/Automation_pyScripts/param/tblEmailOfferNameDim_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblListingBCPReportExportOutPut.sql,C:/Scripts/Automation_pyScripts/param/tblListingBCPReportExportOutPut_trgt.sql

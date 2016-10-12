@@ -1,0 +1,1 @@
+select count(*) from information_schema.columns where lower(table_schema) =lower('%s') and lower(table_name)=lower('%s') and is_nullable='NO'

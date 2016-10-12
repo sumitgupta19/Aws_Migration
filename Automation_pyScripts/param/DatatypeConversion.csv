@@ -1,0 +1,21 @@
+sqlserver,redshift,default
+bit,smallint,y
+datetime,timestamp without time zone,
+datetime2,timestamp without time zone,
+float,numeric,y
+int,integer,y
+money,numeric,y
+smalldatetime,date,y
+text,varchar,
+time,varchar,
+tinyint,smallint,y
+uniqueidentifier,varchar,
+char,character,
+varchar,character varying,
+timestamp,timestamp without time zone,
+decimal,numeric,y
+bigint,bigint,y
+numeric,numeric,y
+smallint,smallint,y
+nvarchar,character varying, 
+date,timestamp without time zone, 

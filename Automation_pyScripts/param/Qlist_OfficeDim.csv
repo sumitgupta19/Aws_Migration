@@ -1,0 +1,3 @@
+SourceQuery, Target Query
+C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_5k.sql,C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_5k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_10k.sql,C:/Scripts/Automation_pyScripts/param/tblCommunityManagmentDim_10k_trgt.sql

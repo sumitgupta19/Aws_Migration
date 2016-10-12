@@ -1,0 +1,2 @@
+SourceQueryFileName, TargetQueryFileName
+C:/Scripts/AWS Full Blown Migration Automation Demo/Automation_pyScripts/param/Oracle_Hz_parties.sql,C:/Scripts/AWS Full Blown Migration Automation Demo/Automation_pyScripts/param/Redshift_Hz_parties.sql

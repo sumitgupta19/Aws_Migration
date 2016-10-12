@@ -1,0 +1,15 @@
+[sql_server_cred]
+sql_server = QAZ02SQL291
+sql_database = movedm
+sql_uid = biedwmigration
+sql_pwd = biedwmigration
+DataExtractFileSizeThreshold = 2
+NumOfBatchesToExtract = 0
+
+[oracle_cred]
+orc_Username = xrefinquiry
+orc_Password= xrefinquiry
+orc_IP= d02ora21039.corp.homestore.net:1522
+orc_ServiceName= CDHQA
+
+

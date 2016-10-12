@@ -1,0 +1,10 @@
+schemaname,tablename
+edw,tbllistingdim
+searchdm,tblsearchpropertytypebridge
+searchdm,tblsearchgisbridge
+edw,tblagentdim
+edw,tblbrokercustomerevents
+edw,tblcustomerdim
+edw,tblcustomerpartyidlistingtypeclcfact
+searchdm,tblsearchpropertyfeaturebridge
+edw,tblgisgeographydim

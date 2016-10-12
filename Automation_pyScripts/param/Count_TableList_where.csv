@@ -1,0 +1,11 @@
+SchemaName,TableName,WhereClause
+EDW,tblEventTypeDim,
+edw,tblLeadCategoryDim,
+edw,tblNewHomesSubdivisionDim,
+edw,tblNewHomesSubdivisionDim,
+BrokerContractDM,tblAgentBridge,
+BrokerContractDM,tblBrokerBillingInformationDim,
+BrokerContractDM,tblBrokerContactBridge,
+BrokerContractDM,tblBrokerContractContactDim,
+BrokerContractDM,tblBrokerContractJunkDim,
+BrokerContractDM,tblBrokerContractOriginationTransactionalFact,

@@ -1,0 +1,8 @@
+SourceQueryFileName, TargetQueryFileName
+C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_1k_2k.sql,C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_1k_2k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_1lacs.sql,C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_1lacs_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_2k_3k.sql,C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_2k_3k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_3k_4k.sql,C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_3k_4k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_4k_5k.sql,C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_4k_5k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_5k_6k.sql,C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_5k_6k_trgt.sql
+C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_6k_7k.sql,C:/Scripts/Automation_pyScripts/param/tblNewHomesSubdivisionDim_6k_7k_trgt.sql 
