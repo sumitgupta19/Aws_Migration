@@ -1,0 +1,11 @@
+SchemaName,TableName,SourceCount,TargetCount
+EDW,tblEventTypeDim,499,497
+edw,tblLeadCategoryDim,49,96
+edw,tblNewHomesSubdivisionDim,335409,1076065
+edw,tblNewHomesSubdivisionDim,335409,1076065
+BrokerContractDM,tblAgentBridge,4716791,0
+BrokerContractDM,tblBrokerBillingInformationDim,84,0
+BrokerContractDM,tblBrokerContactBridge,22690,45790
+BrokerContractDM,tblBrokerContractContactDim,18267,0
+BrokerContractDM,tblBrokerContractJunkDim,34741,0
+BrokerContractDM,tblBrokerContractOriginationTransactionalFact,356368,970472
